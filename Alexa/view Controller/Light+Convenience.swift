@@ -12,6 +12,8 @@ import UIKit
 
 extension Light {
     
+    @discardableResult
+    
     // its going to call upon the designated init/primary init
     // all core date objects  have one designated init of NSManageObject **** NSMN..O is the super
     

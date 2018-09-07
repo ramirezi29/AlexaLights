@@ -10,6 +10,7 @@
 		472158592142046700A04F36 /* Alexa.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 472158572142046700A04F36 /* Alexa.xcdatamodeld */; };
 		4721585B214205D300A04F36 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721585A214205D300A04F36 /* CoreDataStack.swift */; };
 		4721585E214207DD00A04F36 /* Light+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4721585D214207DD00A04F36 /* Light+Convenience.swift */; };
+		472158612142112200A04F36 /* LightController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 472158602142112200A04F36 /* LightController.swift */; };
 		47633F112141FB9900666A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47633F102141FB9900666A21 /* AppDelegate.swift */; };
 		47633F162141FB9900666A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47633F142141FB9900666A21 /* Main.storyboard */; };
 		47633F182141FB9B00666A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47633F172141FB9B00666A21 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 		472158582142046700A04F36 /* Alexa.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Alexa.xcdatamodel; sourceTree = "<group>"; };
 		4721585A214205D300A04F36 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		4721585D214207DD00A04F36 /* Light+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Light+Convenience.swift"; sourceTree = "<group>"; };
+		472158602142112200A04F36 /* LightController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightController.swift; sourceTree = "<group>"; };
 		47633F0D2141FB9900666A21 /* Alexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47633F102141FB9900666A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47633F152141FB9900666A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +62,14 @@
 			path = "view Controller";
 			sourceTree = "<group>";
 		};
+		4721585F2142110C00A04F36 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				472158602142112200A04F36 /* LightController.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		47633F042141FB9900666A21 = {
 			isa = PBXGroup;
 			children = (
@@ -80,6 +90,7 @@
 		47633F0F2141FB9900666A21 /* Alexa */ = {
 			isa = PBXGroup;
 			children = (
+				4721585F2142110C00A04F36 /* Model */,
 				47633F102141FB9900666A21 /* AppDelegate.swift */,
 				47633F142141FB9900666A21 /* Main.storyboard */,
 				4721585C2142079300A04F36 /* view Controller */,
@@ -175,6 +186,7 @@
 				47633F242142024000666A21 /* LightsTableViewController.swift in Sources */,
 				4721585E214207DD00A04F36 /* Light+Convenience.swift in Sources */,
 				472158592142046700A04F36 /* Alexa.xcdatamodeld in Sources */,
+				472158612142112200A04F36 /* LightController.swift in Sources */,
 				47633F262142031B00666A21 /* LightTableViewCell.swift in Sources */,
 				47633F112141FB9900666A21 /* AppDelegate.swift in Sources */,
 			);

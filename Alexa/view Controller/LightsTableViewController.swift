@@ -42,4 +42,6 @@ class LightsTableViewController: UITableViewController {
             // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
         }    
     }
+    @IBAction func addLightButtonTapped(_ sender: Any) {
+    }
 }
