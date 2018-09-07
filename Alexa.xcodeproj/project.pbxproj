@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		47633F112141FB9900666A21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47633F102141FB9900666A21 /* AppDelegate.swift */; };
-		47633F132141FB9900666A21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47633F122141FB9900666A21 /* ViewController.swift */; };
 		47633F162141FB9900666A21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47633F142141FB9900666A21 /* Main.storyboard */; };
 		47633F182141FB9B00666A21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47633F172141FB9B00666A21 /* Assets.xcassets */; };
 		47633F1B2141FB9B00666A21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47633F192141FB9B00666A21 /* LaunchScreen.storyboard */; };
@@ -17,7 +16,6 @@
 /* Begin PBXFileReference section */
 		47633F0D2141FB9900666A21 /* Alexa.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alexa.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47633F102141FB9900666A21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		47633F122141FB9900666A21 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		47633F152141FB9900666A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		47633F172141FB9B00666A21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		47633F1A2141FB9B00666A21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +38,7 @@
 			children = (
 				47633F0F2141FB9900666A21 /* Alexa */,
 				47633F0E2141FB9900666A21 /* Products */,
+				47633F222141FFCA00666A21 /* Resources */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +54,19 @@
 			isa = PBXGroup;
 			children = (
 				47633F102141FB9900666A21 /* AppDelegate.swift */,
-				47633F122141FB9900666A21 /* ViewController.swift */,
 				47633F142141FB9900666A21 /* Main.storyboard */,
-				47633F172141FB9B00666A21 /* Assets.xcassets */,
-				47633F192141FB9B00666A21 /* LaunchScreen.storyboard */,
-				47633F1C2141FB9B00666A21 /* Info.plist */,
 			);
 			path = Alexa;
+			sourceTree = "<group>";
+		};
+		47633F222141FFCA00666A21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				47633F192141FB9B00666A21 /* LaunchScreen.storyboard */,
+				47633F1C2141FB9B00666A21 /* Info.plist */,
+				47633F172141FB9B00666A21 /* Assets.xcassets */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47633F132141FB9900666A21 /* ViewController.swift in Sources */,
 				47633F112141FB9900666A21 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,7 +286,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = Alexa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Alexa/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,7 +304,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L7AYJDAX2C;
-				INFOPLIST_FILE = Alexa/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Alexa/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
